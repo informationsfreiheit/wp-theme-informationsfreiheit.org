@@ -47,6 +47,7 @@
 	 */
 	wp_head();
 ?>
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
 </head>
 
 <body <?php body_class(); ?>>
