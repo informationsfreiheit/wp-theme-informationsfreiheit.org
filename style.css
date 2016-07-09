@@ -175,8 +175,8 @@ margin: 10px 0 0 0;
 #access .menu-header ul {
 position: absolute;
 list-style-type: none;
-margin: 0 0 0 -40px;
-
+margin: 0;
+padding-left: 0;
 }
 #access .menu-header li {
 background: none repeat scroll 0 0 #000;
