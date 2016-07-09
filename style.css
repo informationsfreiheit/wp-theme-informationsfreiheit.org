@@ -24,6 +24,7 @@
 }
 #access ul li:hover > ul { /* hover out */
     display: block;
+    z-index: 1001;
 }
 label {
     display: block;
