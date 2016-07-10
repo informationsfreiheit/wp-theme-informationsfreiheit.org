@@ -41,7 +41,7 @@ get_header(); ?>
     <?php edit_post_link( __( 'Edit' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer><!-- .entry-footer -->' ); ?>
 
 
-<p prefix="dct: http://purl.org/dc/terms/ cc: http://creativecommons.org/ns#" class="cc-block"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="CC BY-SA 4.0" class="cc-button" src="http://informationsfreiheit.org/wp-content/plugins/creative-commons-configurator-1/media/cc/by-sa/4.0/88x31.png" width="88" height="31" /></a><?php echo $ifgConfig['creativecommonsText'] ; ?></p>
+<p prefix="dct: http://purl.org/dc/terms/ cc: http://creativecommons.org/ns#" class="cc-block"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><?php echo $ifgConfig['creativecommonsText'] ; ?></p>
                         
 
 
