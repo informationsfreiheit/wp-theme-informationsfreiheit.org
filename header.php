@@ -7,6 +7,7 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, user-scalable=0"/>
+<link rel="icon" href="/wp-content/themes/wp-theme-informationsfreiheit.org/images/ifg_ordner_16.png" type="image/x-icon">
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
