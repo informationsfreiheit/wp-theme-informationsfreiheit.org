@@ -250,10 +250,11 @@ width: auto;
     
     #site-title a {
         padding: 10px 0 4px 70px;
-	font-size: 14px;
+        font-size: 20px;
+        line-height: 1.3em;
     }
     #site-description {
-      padding: 5px 0 9px 70px;
+        display: none;
     }
 
     #header {
