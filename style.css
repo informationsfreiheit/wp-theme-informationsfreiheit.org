@@ -241,8 +241,8 @@ width: auto;
     #branding {
         padding-bottom: 0;
         background-size: 65px;
-        min-height: 103px;
-        background-position: 0 40px;
+        min-height: 90px;
+        background-position: 0 29px;
     }
     #site-title {
         margin: 0;
@@ -278,9 +278,10 @@ width: auto;
         color: #000 !important;
         display: block;
         font-size: 50px;
-        padding: 10px 0 0 10px;
-        float: left;
+        padding: 20px ;
+        float: right;
         text-decoration: none;
+        cursor: pointer;
     }
 
     #access .menu-header ul {
