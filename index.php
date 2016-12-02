@@ -59,9 +59,14 @@ get_header(); ?>
             </ul>
             
             
-            <p class="feed">
-            <a href="/blog/">Alle Meldungen</a>
-            <a href="/feed/">rss</a></p>
+            <p class="leftblue">
+                <a href="/blog/" class="allposts" >Alle Meldungen</a>
+                <a href="/feed/" class="rss">rss</a>
+            </p>
+
+            <p class="leftblue">
+                <a href="https://twitter.com/ifg_bayern" class="twitter" >twitter.com/ifg_bayern</a>
+            </p>
 
             <div class="karte_broch">
                 <a href="/ubersicht/"><img src="/wp-content/uploads/2012/10/karteklein.png" alt="Bayerische Informationsfreiheits-Landkarte" title="Bayerische Informationsfreiheits-Landkarte" /></a>
