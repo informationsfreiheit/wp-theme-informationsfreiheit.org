@@ -16,7 +16,7 @@
         ?>
     </header><!-- .entry-header -->
 
-    <div class="entry-content">
+    <div class="entry-content copytext">
         <?php
             if ( !is_page() ) :
             ?>
