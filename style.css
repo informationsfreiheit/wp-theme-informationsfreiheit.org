@@ -79,13 +79,14 @@ td{vertical-align: text-top;}
 a {
     text-decoration: none;
 }
-a:hover {
+
+#content a {
     text-decoration: underline;
 }
-
 a:link { color: #666; } 
-a:hover { color: #333; } 
-a:hover { color: #aaa; }
+#content a:hover {
+    text-decoration: none;
+}
 a:visited { color: #777; }
 a[href $=".pdf"] {
 background-position: center right ;
