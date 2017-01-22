@@ -89,6 +89,10 @@ a:link { color: #666; }
 }
 a:visited { color: #777; }
 
+#sidebar a:hover {
+    text-decoration: underline;
+}
+
 #hamburger {
     display: none;
 }
