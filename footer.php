@@ -33,6 +33,9 @@ function toggle(obj) {
 	 */
 
 	wp_footer();
+
+    /* from https://www.sitepoint.com/add-javascript-single-wordpress-posts/ */
+    echo get_post_meta( get_the_ID(), 'single-post-js', true)  ;
 ?>
 </body>
 </html>
