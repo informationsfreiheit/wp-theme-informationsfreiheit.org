@@ -30,18 +30,24 @@ get_header(); ?>
             if ( comments_open() || get_comments_number() ) :
                 comments_template();
             endif;
-
         // End the loop.
         endwhile;
-        ?>
 
+        if ( have_posts() && !is_page() ) :
+        ?>
+        <br class="cb" />
+        <div class="nav-next left"><?php previous_posts_link( 'Jüngere Beiträge' ); ?></div>
+        <div class="nav-previous right"><?php next_posts_link( 'Ältere Beiträge' ); ?></div>
+        <?php
+        endif;
+        ?>
 
     </div><!-- .entry-content -->
 
     <?php edit_post_link( __( 'Edit' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer><!-- .entry-footer -->' ); ?>
 
 
-<p prefix="dct: http://purl.org/dc/terms/ cc: http://creativecommons.org/ns#" class="cc-block"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><?php echo $ifgConfig['creativecommonsText'] ; ?></p>
+<p prefix="dct: http://purl.org/dc/terms/ cc: http://creativecommons.org/ns#" class="cc-block cb"><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><?php echo $ifgConfig['creativecommonsText'] ; ?></p>
                         
 
 
